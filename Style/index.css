@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.Space {
+  padding-top: 4.5em;
+}
+.Home-ancor,
+.header-feedback {
+  color: indianred !important;
+}
+.Hover-nav,
+.Hover-nav-Home,
+.Hover-nav-Dropdown {
+  transition: 0.4s;
+}
+
+.nav-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.Hover-nav-Home:hover {
+  background-color: indianred !important;
+  color: white !important;
+  border-radius: 5px;
+  transform: scale(0.8);
+  text-transform: uppercase;
+}
+
+.Hover-nav:hover {
+  background-color: indianred !important;
+  border-radius: 5px;
+  transform: scale(0.8);
+  text-transform: uppercase;
+}
+
+.Hover-nav-Dropdown:hover {
+  background-color: indianred !important;
+  border-radius: 5px;
+  padding-left: 1.5em;
+  text-transform: uppercase;
+}
+
+.carousel-inner::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-inner {
+  max-height: 100vh;
+}
+.carousel-caption {
+  bottom: 20%;
+  z-index: 10;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  color: white !important;
+  font-size: 1.3em;
+}
+
+.button-latest-product {
+  background-color: indianred;
+  color: white;
+  border: none;
+  padding: 0.4em;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.button-latest-product:hover {
+  transform: scale(1.1);
+}
+
+.icon-latest-product:hover {
+  color: indianred;
+  cursor: pointer;
+}
+
+.letter-spacing {
+  letter-spacing: 0.1em;
+}
+
+.img-width {
+  position: relative;
+  padding: 0;
+}
+
+.gap {
+  gap: 4.5em;
+}
+
+.hover-Deals::after {
+  content: "enjoy 50% discount on black friday";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  font-size: 2.9em;
+  font-weight: 600;
+  transform: scale(0);
+  color: white;
+  background-color: rgba(205, 92, 92, 90%);
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+
+.hover-Deals1::after {
+  content: "enjoy up to 70% sale on weekend";
+}
+
+.hover-Deals2::after {
+  content: "enjoy free delivery while register";
+}
+
+.hover-Deals:hover::after {
+  transform: scale(0.8);
+}
+
+.header-feedback {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #343a40;
+}
+
+.footer .top-footer .fas {
+  font-size: 4.5em;
+}
+
+.top-footer {
+  gap: 4.5em;
+}
+
+.footer a:hover {
+  color: indianred;
+}
+
+.fa-facebook-f:hover {
+  color: #1548b8;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-whatsapp:hover {
+  color: #089282;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+@media screen and (max-width: 567px) {
+  .bottom-feedback {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

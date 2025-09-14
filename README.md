@@ -41,4 +41,4 @@
 
 1. نزّل الكود من GitHub:
    ```bash
-   git clone https://github.com/username/dokan-shop.git
+   git clone [https://github.com/username/dokan-shop.git](https://github.com/Mahmoud-Nasser1/Dokan-Shop.git)
